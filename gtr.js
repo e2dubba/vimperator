@@ -1,7 +1,7 @@
 // Vimperator Plugin: 'gtr'
 // Usuage: use :gtr
 
-commands.addUserCommand(['gtr'], 'Opens Clipboard text in Google Translae', 
+commands.addUserCommand(['gtr'], 'Opens Clipboard text in Google Translate', 
 	function () {
         let otext = util.readFromClipboard()
         otext = otext.replace(/\-\r?\n/g, '');
