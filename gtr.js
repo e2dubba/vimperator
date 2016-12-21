@@ -4,6 +4,7 @@
 commands.addUserCommand(['gtr'], 'Opens Clipboard text in Google Translate', 
 	function () {
         let otext = util.readFromClipboard()
+        otext = otext.replace(/([\.|\?]), (\r?\n)/g, "$1$2$2");
         otext = otext.replace(/\-\r?\n/g, '');
         otext = otext.replace(/\r?\n/g, ' ');
 		var url = "https://translate.google.com/#auto/en/" ;

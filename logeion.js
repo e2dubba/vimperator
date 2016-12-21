@@ -6,7 +6,7 @@
 
 
 
-commands.addUserCommand(['logeion'], "Search Logieon",
+commands.addUserCommand(['log'], "Search Logieon",
  
     function(args) {
 
