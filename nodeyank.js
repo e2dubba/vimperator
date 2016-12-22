@@ -1,7 +1,7 @@
 // Vimperator Plugin: 'nodeyank'
 // Usuage: use :nodeyank
 
-commands.addUserCommand(['ndynk'], 'Yanks the node from a url', 
+commands.addUserCommand(['nodeyank'], 'Yanks the node from a url', 
     function () {
         var url = buffer.URL;
         if (options.get("yankencodedurl").value)
